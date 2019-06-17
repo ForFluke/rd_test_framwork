@@ -33,3 +33,12 @@ That's it! Now go build something cool.
     git add .
 	git commit -m "rd workshop"
 	git push -u origin master
+
+##  NEW
+
+	echo "# rd_new" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/ForFluke/rd_new.git
+	git push -u origin master
